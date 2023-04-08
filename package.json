@@ -1,5 +1,5 @@
 {
-  "name": "@mshick/add-pr-comment",
+  "name": "@adarsh-suvarna/github-pr-comment",
   "version": "1.0.0",
   "description": "A GitHub Action which adds a comment to a Pull Request Issue.",
   "keywords": [
@@ -10,16 +10,16 @@
     "comments",
     "pr"
   ],
-  "homepage": "https://github.com/mshick/add-pr-comment#readme",
+  "homepage": "https://github.com/Adarsh-Suvarna/GitHub-PR-Comment#readme",
   "bugs": {
-    "url": "https://github.com/mshick/add-pr-comment/issues"
+    "url": "https://github.com/Adarsh-Suvarna/GitHub-PR-Comment/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mshick/add-pr-comment.git"
+    "url": "git+https://github.com/Adarsh-Suvarna/GitHub-PR-Comment.git"
   },
   "license": "MIT",
-  "author": "Michael Shick <m@shick.us>",
+  "author": "Adarsha Suvarna",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",

@@ -60,5 +60,3 @@ jobs:
         with:
           message: |
             **Hello ${{ github.run_number }}**
-            🌏
-            !
