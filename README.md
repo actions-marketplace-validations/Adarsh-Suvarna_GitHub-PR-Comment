@@ -16,8 +16,6 @@ jobs:
         with:
           message: |
             **Hello**
-            🌏
-            !
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
