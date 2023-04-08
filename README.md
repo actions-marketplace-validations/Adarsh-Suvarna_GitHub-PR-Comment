@@ -1,6 +1,6 @@
-# Add GitHub PRs Comment
+# Add Git-Hub PRs Comment
 
-> A GitHub Action which adds a comment to a pull request's issue.
+> A GitHub Action which adds a comment to a pull request's issue usefull in Post Terraform Plan and Terraform Apply to GitHub PRs.
 
 ## Usage
 
@@ -21,7 +21,7 @@ jobs:
           allow-repeats: false
 ```
 
-This can be even use it on PR Issues that are related to PRs that were merged into master, for example:
+This can be even use it on PR Issues that are related to PRs that were merged into master.
 
 ```yaml
 on:
