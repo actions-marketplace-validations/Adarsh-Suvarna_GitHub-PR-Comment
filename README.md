@@ -1,4 +1,4 @@
-# add-pr-comment
+# Add-PRs-comment
 
 A GitHub Action which adds a comment to a pull request's issue.
 
@@ -32,7 +32,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: mshick/add-pr-comment@v2
+      - uses: Adarsh-Suvarna/GitHub-PR-Comment@v1.0.0
         with:
           message: |
             **Hello**
@@ -54,7 +54,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: mshick/add-pr-comment@v2
+      - uses: Adarsh-Suvarna/GitHub-PR-Comment@v1.0.0
         with:
           message: |
             **Hello MAIN**
@@ -85,7 +85,7 @@ GitHub limits `GITHUB_TOKEN` and other API access token permissions when creatin
 
 See this issue: https://github.community/t/github-actions-are-severely-limited-on-prs/18179/4 for more details.
 
-Check out the proxy service here: https://github.com/mshick/add-pr-comment-proxy
+Check out the proxy service here: https://github.com/Adarsh-Suvarna/GitHub-PR-Comment-Proxy
 
 **Example**
 
@@ -99,11 +99,11 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: mshick/add-pr-comment@v2
+      - uses: Adarsh-Suvarna/GitHub-PR-Comment@v1.0.0
         with:
           message: |
             **Howdie!**
-          proxy-url: https://add-pr-comment-proxy-94idvmwyie-uc.a.run.app
+          proxy-url: https://add-pr-comment-proxy-********-uc.a.run.app
 ```
 
 ### Status Message Overrides
@@ -124,7 +124,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: mshick/add-pr-comment@v2
+      - uses: Adarsh-Suvarna/GitHub-PR-Comment@v1.0.0
         with:
           if: always()
           message: |
@@ -160,7 +160,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: mshick/add-pr-comment@v2
+      - uses: Adarsh-Suvarna/GitHub-PR-Comment@v1.0.0
         with:
           issue: ${{ steps.pr.outputs.issue }}
           message: |
