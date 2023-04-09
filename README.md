@@ -1,6 +1,6 @@
 # Add Git-Hub PRs Comment
 
-> A GitHub Action which adds a comment to a pull request's issue usefull in Post Terraform Plan and Terraform Apply to GitHub PRs.
+> A GitHub Action which adds a comment to a pull request's issue. This is usefull in Post Terraform Plan or Terraform Apply outputs to the GitHub PRs.
 
 ## Usage
 
